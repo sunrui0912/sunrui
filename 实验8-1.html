@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片墙</title>
+<style>
+	body{
+		background: url(images/bg11.jpg) no-repeat top center fixed;
+		background-size: 100% auto;
+		}
+	.content{
+		width: 900px;
+		height: 1000px;
+		margin: 60px auto;
+		position: relative;
+		}
+	img{
+		z-index: 10;
+		width: 20%;
+		height: auto;
+		position: absolute;
+		padding: 10px 10px 15px 10px;
+		background: #ffffff;
+		border: 1px solid #CCCCCC;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+		}
+	img:hover{
+		z-index: 12;
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		transform: scale(1.5);
+		-webkit-box-shadow: -10px 10px 20px #000000;
+		box-shadow: -10px 10px 20px #000000;
+	}
+	.pic1{
+		left: 100px;
+		top: 50px;
+		-webkit-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+	.pic2{
+		left: 280px;
+		top: 60px;
+		-webkit-transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+	.pic3{
+		left: 450px;
+		top: 50px;
+		-webkit-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	.pic4{
+		left: 630px;
+		top: 60px;
+		-webkit-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+	.pic5{
+		left: 100px;
+		top: 240px;
+		-webkit-transform: rotate(-50deg);
+		-ms-transform: rotate(-50deg);
+		-o-transform: rotate(-50deg);
+		transform: rotate(-50deg);
+	}
+	.pic6{
+		left: 280px;
+		top: 230px;
+		-webkit-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	.pic7{
+		left: 460px;
+		top: 240px;
+		-webkit-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+	.pic8{
+		left: 100px;
+		top: 450px;
+		-webkit-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		-o-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+	.pic9{
+		left: 280px;
+		top: 480px;
+		-webkit-transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+	.pic10{
+		left: 460px;
+		top: 430px;
+		-webkit-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+</style>
+</head>
+<body>
+	<div class="content">
+		<img class="pic1" src="images/1.jpg" />
+		<img class="pic2" src="images/2.jpg" />
+		<img class="pic3" src="images/3.jpg" />
+		<img class="pic4" src="images/4.jpg" />
+		<img class="pic5" src="images/5.jpg" />
+		<img class="pic6" src="images/6.jpg" />
+		<img class="pic7" src="images/7.jpg" />
+		<img class="pic8" src="images/8.jpg" />
+		<img class="pic9" src="images/9.jpg" />
+		<img class="pic10" src="images/10.jpg" />
+	</div>
+</body>
+</html>
